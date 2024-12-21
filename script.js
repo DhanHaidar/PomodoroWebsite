@@ -270,8 +270,8 @@ const loadTasks = async () => {
 
            /// // PENANGANAN SPOTIFY PLAYLIST//////
             document.addEventListener('DOMContentLoaded', () => {
-                const clientId = 'f121bb13b2004405b063d6969b558c4a'; // Masukkan Client ID Spotify Anda
-                const redirectUri = 'https://dhanhaidar.github.io/WebsitePomodoro/'; // Masukkan Redirect URI Anda
+                const clientId = '027bdd76e2494d0984f3b9ce1e34715f'; // Masukkan Client ID Spotify Anda
+                const redirectUri = 'http://127.0.0.1/pmdroalpa'; // Masukkan Redirect URI Anda
                 const scopes = 'streaming user-read-email user-read-private';
             
                 let accessToken = null;
